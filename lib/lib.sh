@@ -125,7 +125,7 @@ welcome() {
   output "Pterodactyl panel installation script @ $SCRIPT_RELEASE"
   output ""
   output "Copyright (C) 2018 - 2026, Vilhelm Prytz, <vilhelm@prytznet.se>"
-  output "https://github.com/pterodactyl-installer/pterodactyl-installer"
+  output "https://github.com/06NinjaKid06/pterodactyl-installer-25"
   output ""
   output "This script is not associated with the official Pterodactyl Project."
   output ""
@@ -540,6 +540,7 @@ case "$OS" in
 ubuntu)
   [ "$OS_VER_MAJOR" == "22" ] && SUPPORTED=true
   [ "$OS_VER_MAJOR" == "24" ] && SUPPORTED=true
+  [ "$OS_VER_MAJOR" == "25" ] && SUPPORTED=true
   export DEBIAN_FRONTEND=noninteractive
   ;;
 debian)
