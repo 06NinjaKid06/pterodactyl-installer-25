@@ -165,6 +165,7 @@ run_installer() {
 }
 
 run_ui() {
+  echo "DEBUG: fetching $GITHUB_URL/ui/$1.sh"  # add this
   bash <(curl -sSL "$GITHUB_URL/ui/$1.sh")
 }
 
