@@ -113,3 +113,7 @@ Copyright (C) 2018 - 2026, Vilhelm Prytz, <vilhelm@prytznet.se>, and contributor
 - Maintained by [Linux123123](https://github.com/Linux123123)
 
 Thanks to the Discord moderators [sam1370](https://github.com/sam1370), [Linux123123](https://github.com/Linux123123) and [sinjs](https://github.com/sinjs) for helping on the Discord server!
+
+## Notice
+
+I, coliinn, have made this repo for me and my machine only. Do not expect it to work on yours! If you are curious, my machine is Ubuntu Budgie 25.04, which is why this repo needed to be created. Some other functions, like Vagrant, also might not work.
