@@ -32,7 +32,7 @@ export GITHUB_SOURCE="v1.2.0"
 export SCRIPT_RELEASE="v1.2.0"
 export GITHUB_BASE_URL="https://raw.githubusercontent.com/pterodactyl-installer/pterodactyl-installer"
 
-LOG_PATH="/var/log/pterodactyl-installer.log"
+LOG_PATH="/var/log/pterodactyl-installer-25.log"
 
 # check for curl
 if ! [ -x "$(command -v curl)" ]; then
