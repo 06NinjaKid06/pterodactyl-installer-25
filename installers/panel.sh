@@ -233,8 +233,8 @@ php_fpm_conf() {
 
 ubuntu_dep() {
   install_packages "software-properties-common apt-transport-https ca-certificates gnupg"
-
   add-apt-repository universe -y
+  # No PPA needed — Ubuntu 25.04 ships PHP 8.4 natively in universe
 }
 
 debian_dep() {
