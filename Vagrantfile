@@ -24,6 +24,13 @@ Vagrant.configure("2") do |config|
     end
   end
 
+config.vm.define "ubuntu_plucky" do |ubuntu_plucky|
+    ubuntu_plucky.vm.box = "alvistack/ubuntu-25.04"
+    ubuntu_plucky.vm.provider "virtualbox" do |vb|
+      vb.memory = "4096"
+    end
+  end
+
   # Define Debian VMs
   config.vm.define "debian_bullseye" do |debian_bullseye|
     debian_bullseye.vm.box = "debian/bullseye64"
