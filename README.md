@@ -116,4 +116,4 @@ Thanks to the Discord moderators [sam1370](https://github.com/sam1370), [Linux12
 
 ## Notice
 
-I, coliinn, have made this repo for me and my machine only. Do not expect it to work on yours! If you are curious, my machine is Ubuntu Budgie 25.04, which is why this repo needed to be created. Some other functions, like Vagrant, also might not work.
+I, coliinn, have made this repo for me and my machine only. Do not expect it to work on yours! If you are curious, my machine is Ubuntu Budgie 25.04, which is why this repo needed to be created. Some other functions, like Vagrant, also might not work. This repo will also stay on v1.2.0 and not be updated from upstream unless required for my machine.
