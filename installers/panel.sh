@@ -232,14 +232,13 @@ php_fpm_conf() {
 }
 
 ubuntu_dep() {
-  # Install deps for adding repos
   install_packages "software-properties-common apt-transport-https ca-certificates gnupg"
 
-  # Add Ubuntu universe repo
-  add-apt-repository universe -y
+  # Use sury repo instead of ondrej PPA (better Ubuntu 25.04 support)
+  curl -sSL https://packages.sury.org/php/apt.gpg -o /etc/apt/trusted.gpg.d/php.gpg
+  echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | tee /etc/apt/sources.list.d/php.list
 
-  # Add PPA for PHP (we need 8.4)
-  LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
+  add-apt-repository universe -y
 }
 
 debian_dep() {
