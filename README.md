@@ -19,7 +19,7 @@ Read more about [Pterodactyl](https://pterodactyl.io/) here. This script is not 
 
 ## Help and support
 
-For help and support regarding the script itself and **not the official Pterodactyl project**, you can join the [Discord Chat](https://pterodactyl-installer.se/discord).
+For help and support regarding the original script itself and **not the official Pterodactyl project or this repo**, you can join the [Discord Chat](https://pterodactyl-installer.se/discord).
 
 ## Supported installations
 
