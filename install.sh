@@ -28,8 +28,8 @@ set -e
 #                                                                                    #
 ######################################################################################
 
-export GITHUB_SOURCE="pterodactyl-installer-25/refs/heads/master"
-export SCRIPT_RELEASE="pterodactyl-installer-25/refs/heads/master"
+export GITHUB_SOURCE="master"
+export SCRIPT_RELEASE="master"
 export GITHUB_BASE_URL="https://raw.githubusercontent.com/06NinjaKid06/pterodactyl-installer-25"
 
 LOG_PATH="/var/log/pterodactyl-installer-25.log"
